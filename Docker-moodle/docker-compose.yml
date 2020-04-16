@@ -1,0 +1,11 @@
+version: "3"
+services:
+ db:
+  image: psql_moodle
+
+ moodle:
+    image: moodle
+    depends_on:
+      - db
+    ports:
+      - "80:80"
