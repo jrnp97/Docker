@@ -2,3 +2,5 @@
 
 This directory containt a docker file configuring python2.6 on debian:jessie linux.
 util for legacy projects using old python versions.
+
+witha functional pip installed!
